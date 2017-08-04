@@ -13,4 +13,8 @@ public class ActivityHelper {
         Intent intent = new Intent(context, cls);
         context.startActivity(intent);
     }
+
+    public static void createInstance(Activity context, Intent intent){
+        context.startActivity(intent);
+    }
 }
